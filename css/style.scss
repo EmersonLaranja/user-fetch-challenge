@@ -1,0 +1,31 @@
+$lightColor: hsl(30, 90, 50);
+$darkColor: rgb(207, 100, 0);
+$textColor: #fff;
+
+@import '_header.scss';
+@import '_users.scss';
+@import '_statistics.scss';
+@import '_input.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: $textColor;
+  background-color: hsl(260, 100, 8);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+#search-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0 100px;
+  max-width: 100%;
+}

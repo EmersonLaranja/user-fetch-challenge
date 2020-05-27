@@ -1,0 +1,31 @@
+#input-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 18px 0;
+  #input-user {
+    width: 70%;
+    margin-right: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.4s;
+    &:focus {
+      border: solid 2px $lightColor;
+    }
+  }
+  button {
+    width: 12%;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.4s;
+
+    &:enabled {
+      background-color: $lightColor;
+    }
+    &:disabled {
+      color: rgba(255, 255, 255, 0.582);
+    }
+  }
+}

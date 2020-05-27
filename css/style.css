@@ -1,0 +1,127 @@
+header {
+  background: -webkit-gradient(linear, left bottom, left top, from(#cf6400), to(#f2800d));
+  background: linear-gradient(0deg, #cf6400, #f2800d);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+#users-container {
+  height: auto;
+}
+
+#users-container #users-display {
+  text-align: center;
+  font-size: 36px;
+  color: #f2800d;
+  margin-bottom: 30px;
+}
+
+#users-container #users-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#users-container #users-list li img {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+#statistics-container {
+  height: auto;
+}
+
+#statistics-container #statistics-display {
+  text-align: start;
+  font-size: 36px;
+  color: #f2800d;
+  margin-bottom: 30px;
+}
+
+#statistics-container #statistics-list li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+#input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 18px 0;
+}
+
+#input-container #input-user {
+  width: 70%;
+  margin-right: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#input-container #input-user:focus {
+  border: solid 2px #f2800d;
+}
+
+#input-container button {
+  width: 12%;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#input-container button:enabled {
+  background-color: #f2800d;
+}
+
+#input-container button:disabled {
+  color: rgba(255, 255, 255, 0.582);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #0e0029;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+#search-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 0 100px;
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

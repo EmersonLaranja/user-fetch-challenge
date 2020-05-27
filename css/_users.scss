@@ -1,0 +1,23 @@
+#users-container {
+  // width: 50%;
+  height: auto;
+  #users-display {
+    text-align: center;
+    font-size: 36px;
+    color: $lightColor;
+    margin-bottom: 30px;
+  }
+  #users-list {
+    li {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin-bottom: 20px;
+
+      img {
+        border-radius: 50%;
+        margin-right: 12px;
+      }
+    }
+  }
+}

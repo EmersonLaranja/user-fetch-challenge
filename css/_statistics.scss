@@ -1,0 +1,18 @@
+#statistics-container {
+  // width: 50%;
+  height: auto;
+  #statistics-display {
+    text-align: start;
+    font-size: 36px;
+    color: $lightColor;
+    margin-bottom: 30px;
+  }
+  #statistics-list {
+    // padding-left: 15px;
+
+    li {
+      list-style: none;
+      margin-bottom: 18px;
+    }
+  }
+}
