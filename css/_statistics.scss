@@ -4,13 +4,19 @@
   #statistics-display {
     text-align: start;
     font-size: 36px;
-    color: $lightColor;
+    color: $tertiaryColor;
+    // text-shadow: 3px 0px 8px $darkSecondaryColor;
+    border-bottom: 1px solid $darkSecondaryColor;
     margin-bottom: 30px;
   }
   #statistics-list {
+    border-left: solid 4px $darkSecondaryColor;
+    // box-shadow: 0px 0px 0px 2px $lightSecondaryColor;
+
     // padding-left: 15px;
 
     li {
+      margin-left: 10px;
       list-style: none;
       margin-bottom: 18px;
     }

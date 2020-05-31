@@ -1,8 +1,14 @@
 header {
-  background: linear-gradient(0deg, $darkColor, $lightColor);
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 4px 0px 12px $darkSecondaryColor;
   padding: 15px;
   margin-bottom: 40px;
-  color: $textColor;
+  color: $tertiaryColor;
+
+  h2 {
+    font-size: 48px;
+    padding: 50px 0;
+    color: $darkSecondaryColor;
+  }
 }

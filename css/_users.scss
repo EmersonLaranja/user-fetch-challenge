@@ -4,7 +4,9 @@
   #users-display {
     text-align: center;
     font-size: 36px;
-    color: $lightColor;
+    color: $tertiaryColor;
+    // text-shadow: 2px 0px 2px $darkSecondaryColor;
+    border-bottom: 1px solid $darkSecondaryColor;
     margin-bottom: 30px;
   }
   #users-list {
@@ -13,10 +15,18 @@
       align-items: center;
       list-style: none;
       margin-bottom: 20px;
+      padding: 10px;
+      border: 2px inset $lightSecondaryColor;
+      background-color: $lightPrimaryColor;
+      border-radius: 8px;
 
       img {
-        border-radius: 50%;
         margin-right: 12px;
+        border-radius: 50%;
+        // border: solid 3px $darkSecondaryColor;
+        border: solid 3px $darkSecondaryColor;
+        box-shadow: 0px 0px 0px 2px $lightSecondaryColor;
+        // box-shadow: 0px 0px 0px 2px $tertiaryColor;
       }
     }
   }

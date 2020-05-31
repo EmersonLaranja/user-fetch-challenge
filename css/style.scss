@@ -1,6 +1,8 @@
-$lightColor: hsl(30, 90, 50);
-$darkColor: rgb(207, 100, 0);
-$textColor: #fff;
+$darkPrimaryColor: #212121;
+$lightPrimaryColor: #323232;
+$darkSecondaryColor: #0a5457;
+$lightSecondaryColor: #14ffec;
+$tertiaryColor: #fff;
 
 @import '_header.scss';
 @import '_users.scss';
@@ -15,8 +17,8 @@ $textColor: #fff;
 }
 
 body {
-  color: $textColor;
-  background-color: hsl(260, 100, 8);
+  color: $tertiaryColor;
+  background-color: $darkPrimaryColor;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
 }

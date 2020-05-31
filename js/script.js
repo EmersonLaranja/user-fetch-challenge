@@ -11,18 +11,20 @@ window.addEventListener('load', () => {
   inputName = document.querySelector('#input-user');
   searchButton = document.querySelector('button');
 
-  loadAllUsers(); //loading all users from API
   disableLoadingScreen(); //remove "loading... screen"
+  loadAllUsers(); //loading all users from API
   searchButton.addEventListener('click', filterUsers);
   initName();
   focusInput(); //on load the page, the input is focused
 });
 
 function disableLoadingScreen() {
-  let loading = document.querySelector('h2');
-  loading.remove();
-  inputName = document.querySelector('#input-user');
-  inputName.disabled = false;
+  setTimeout(() => {
+    let loading = document.querySelector('h2');
+    loading.remove();
+    inputName = document.querySelector('#input-user');
+    inputName.disabled = false;
+  }, 1600);
 }
 
 async function loadAllUsers() {

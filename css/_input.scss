@@ -5,13 +5,14 @@
   margin: 18px 0;
   #input-user {
     width: 70%;
-    margin-right: 10px;
+    margin-right: 7px;
     padding: 12px;
     border-radius: 8px;
     border: none;
     transition: all 0.4s;
     &:focus {
-      border: solid 2px $lightColor;
+      border: solid 1px $lightSecondaryColor;
+      box-shadow: 0px 0px 8px $lightSecondaryColor;
     }
   }
   button {
@@ -22,10 +23,17 @@
     transition: all 0.4s;
 
     &:enabled {
-      background-color: $lightColor;
+      background-color: $darkSecondaryColor;
+      color: $tertiaryColor;
+      // text-shadow: 3px 0px 3px $tertiaryColor;
+      cursor: pointer;
     }
     &:disabled {
-      color: rgba(255, 255, 255, 0.582);
+      background-color: $darkPrimaryColor;
+      color: $tertiaryColor;
+      border: 0.1px solid $tertiaryColor;
+      opacity: 0.1;
+      cursor: not-allowed;
     }
   }
 }
