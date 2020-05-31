@@ -28,4 +28,6 @@ Exercise the following concepts worked on in the Module:
 - Perform various calculations with array methods such as map, filter and reduce.
 - Perform HTTP requests with the fetch command.
 
-## 🖼️ Image
+## 🖼️ Gif
+
+![](assets/challenge.gif)
